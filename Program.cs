@@ -107,7 +107,8 @@ class Game {
         } else {
             Console.WriteLine("You lose...");
         }
-    }}
+    }
+    }
     class Program {
     static void Main(string[] args) {
         Game game = new Game();
