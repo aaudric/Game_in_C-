@@ -1,10 +1,12 @@
-#Création d'un jeu de role en POO avec le langage Csharp.
+# Création d'un jeu de role en POO avec le langage Csharp.
 
-Le jeu consiste a choisir un type de personnage et a se battre contre un monstre.
+Le jeu consiste à choisir un type de personnage et a se battre contre un monstre.
+
+Le joueur peut choisir son personnage et doit combattre le monstre pour gagner le jeu.
 
 Il existe 3 types de personnages différents avec des points de vies, des défenses et des attaques dofferents.
 
-Voici la liste :
+## Liste des personnages : 
 
 - Warrior : 100 points de vie, 10 attack, 5 defense
 
