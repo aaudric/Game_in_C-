@@ -17,7 +17,7 @@ class Character {
         int damage = Attack - target.Defense;
         if (damage < 0) damage = 0;
         target.Health -= damage;
-        Console.WriteLine(Name + " attacks " + target.Name + " for " + damage + " damage!");
+        Console.WriteLine(Name + " attaque " + target.Name + " et lui inflige " + damage + " degats !");
     }
 }
 
@@ -29,7 +29,7 @@ class Warrior : Character {
         int damage = Attack + 5 - target.Defense;
         if (damage < 0) damage = 0;
         target.Health -= damage;
-        Console.WriteLine(Name + " swings his sword and deals " + damage + " damage to " + target.Name + "!");
+        Console.WriteLine(Name + " utilise son épée et inflige " + damage + " dégats au " + target.Name + " !");
     }
 }
 
@@ -41,7 +41,7 @@ class Wizard : Character {
         int damage = Attack + 3 - target.Defense;
         if (damage < 0) damage = 0;
         target.Health -= damage;
-        Console.WriteLine(Name + " casts a spell on " + target.Name + " and deals " + damage + " damage!");
+        Console.WriteLine(Name + " lance un sort à " + target.Name + " et lui inflige  " + damage + " dégats !");
     }
 }
 
@@ -53,21 +53,21 @@ class Archer : Character {
         int damage = Attack + 4 - target.Defense;
         if (damage < 0) damage = 0;
         target.Health -= damage;
-        Console.WriteLine(Name + " shoots an arrow at " + target.Name + " and deals " + damage + " damage!");
+        Console.WriteLine(Name + " tire une flèche sur " + target.Name + " et lui inflige " + damage + " dégats !");
     }
 }
 
 class Monster : Character {
-    public Monster() : base("Monster", 60, 10, 8) {
+    public Monster() : base(" Monstre", 100, 10, 8) {
     }
 }
 
 class Game {
     public void Start() {
-        Console.WriteLine("Welcome to the game!");
-        Console.WriteLine("Choose your character:");
-        Console.WriteLine("1. Warrior");
-        Console.WriteLine("2. Wizard");
+        Console.WriteLine("Bienvenue sur mon jeu!");
+        Console.WriteLine("Choissisez votre presonnage : ");
+        Console.WriteLine("1. Guerrier");
+        Console.WriteLine("2. Sorcier");
         Console.WriteLine("3. Archer");
 
         Character player = null;
@@ -75,27 +75,27 @@ class Game {
 
         switch (choice) {
             case 1:
-                Console.WriteLine("Enter your character name");
+                Console.WriteLine("Entrez votre nom");
                 player = new Warrior(Console.ReadLine());
                 break;
             case 2:
-                Console.WriteLine("Enter your character name");
+                Console.WriteLine("Entrez votre nom");
                 player = new Wizard(Console.ReadLine());
                 break;
             case 3:
-                Console.WriteLine("Enter your character name");
+                Console.WriteLine("Entrez votre nom");
                 player = new Archer(Console.ReadLine());
                 break;
             default:
-                Console.WriteLine("Invalid choice, please try again.");
+                Console.WriteLine("Mauvais choix, veuillez réessayer");
                 return;
         }
 
         Monster monster = new Monster();
 
         while (player.Health > 0 && monster.Health > 0) {
-            Console.WriteLine(player.Name + ": " + player.Health + " HP");
-            Console.WriteLine(monster.Name + ": " + monster.Health + " HP");
+            Console.WriteLine(player.Name + ": " + player.Health + " points de vie ");
+            Console.WriteLine(monster.Name + ": " + monster.Health + " points de vie");
             Console.WriteLine();
 
             player.AttackTarget(monster);
@@ -106,9 +106,9 @@ class Game {
 
         if (player.Health > 0)
         {
-            Console.WriteLine("You win!");
+            Console.WriteLine("Vous avez gagné !");
         } else {
-            Console.WriteLine("You lose...");
+            Console.WriteLine("Vous avez perdu...");
         }
     }
     }
