@@ -33,8 +33,8 @@ class Warrior : Character {
     }
 }
 
-class Sorcerer : Character {
-    public Sorcerer(string name) : base(name, 80, 15, 3) {
+class Wizard : Character {
+    public Wizard(string name) : base(name, 80, 15, 3) {
     }
 
     public override void AttackTarget(Character target) {
@@ -67,7 +67,7 @@ class Game {
         Console.WriteLine("Welcome to the game!");
         Console.WriteLine("Choose your character:");
         Console.WriteLine("1. Warrior");
-        Console.WriteLine("2. Sorcerer");
+        Console.WriteLine("2. Wizard");
         Console.WriteLine("3. Archer");
 
         Character player = null;
@@ -78,7 +78,7 @@ class Game {
                 player = new Warrior("Player");
                 break;
             case 2:
-                player = new Sorcerer("Player");
+                player = new Wizard("Player");
                 break;
             case 3:
                 player = new Archer("Player");
