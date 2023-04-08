@@ -18,11 +18,26 @@ namespace Game_in_C
 
         public void Attaquer(Entite uneEntite)
         {
+            int degats = random.Next(degatsMin, degatsMax);
+            uneEntite.PerdrePointsDeVie(degats);
 
+            Console.WriteLine(this.nom + "(" + this.pointsDeVie + ") attacks : " + uneEntite.nom);
+            Console.WriteLine(uneEntite.nom + " lost " + degats + "health points");
+            Console.WriteLine(uneEntite.nom + " has " + uneEntite.pointsDeVie + "health points left");
+
+            if(uneEntite.estMort())
+            {
+                Console.WriteLine(uneEntite.nom + "is dead");
+            }
         }
         protected void PerdrePointsDeVie(int pointsDeVie)
         {
-
+            this.pointsDeVie -= pointsDeVie;
+            if(this.pointsDeVie <= 0)
+            {
+                this.pointsDeVie = 0;
+                estMort = true;
+            }
         }
 
         public bool estMort()

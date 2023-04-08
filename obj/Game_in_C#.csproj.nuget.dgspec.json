@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\audri\\Desktop\\Game_in_C#\\Game_in_C#.csproj": {}
+    "C:\\Users\\audri\\Desktop\\Game_in_C\\Game_in_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\audri\\Desktop\\Game_in_C#\\Game_in_C#.csproj": {
+    "C:\\Users\\audri\\Desktop\\Game_in_C\\Game_in_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\audri\\Desktop\\Game_in_C#\\Game_in_C#.csproj",
+        "projectUniqueName": "C:\\Users\\audri\\Desktop\\Game_in_C\\Game_in_C#.csproj",
         "projectName": "Game_in_C#",
-        "projectPath": "C:\\Users\\audri\\Desktop\\Game_in_C#\\Game_in_C#.csproj",
+        "projectPath": "C:\\Users\\audri\\Desktop\\Game_in_C\\Game_in_C#.csproj",
         "packagesPath": "C:\\Users\\audri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\audri\\Desktop\\Game_in_C#\\obj\\",
+        "outputPath": "C:\\Users\\audri\\Desktop\\Game_in_C\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\audri\\AppData\\Roaming\\NuGet\\NuGet.Config"

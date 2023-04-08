@@ -1,0 +1,5 @@
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.csproj.AssemblyReference.cache
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.AssemblyInfoInputs.cache
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.AssemblyInfo.cs
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.csproj.CoreCompileInputs.cache
