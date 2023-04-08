@@ -75,13 +75,16 @@ class Game {
 
         switch (choice) {
             case 1:
-                player = new Warrior("Player");
+                Console.WriteLine("Enter your character name");
+                player = new Warrior(Console.ReadLine());
                 break;
             case 2:
-                player = new Wizard("Player");
+                Console.WriteLine("Enter your character name");
+                player = new Wizard(Console.ReadLine());
                 break;
             case 3:
-                player = new Archer("Player");
+                Console.WriteLine("Enter your character name");
+                player = new Archer(Console.ReadLine());
                 break;
             default:
                 Console.WriteLine("Invalid choice, please try again.");
