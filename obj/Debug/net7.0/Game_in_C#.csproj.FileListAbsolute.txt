@@ -3,3 +3,13 @@ C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.GeneratedMSBuildEdi
 C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.AssemblyInfoInputs.cache
 C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.AssemblyInfo.cs
 C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.csproj.CoreCompileInputs.cache
+C:\Users\audri\Desktop\Game_in_C\bin\Debug\net7.0\Game_in_C#.exe
+C:\Users\audri\Desktop\Game_in_C\bin\Debug\net7.0\Game_in_C#.deps.json
+C:\Users\audri\Desktop\Game_in_C\bin\Debug\net7.0\Game_in_C#.runtimeconfig.json
+C:\Users\audri\Desktop\Game_in_C\bin\Debug\net7.0\Game_in_C#.dll
+C:\Users\audri\Desktop\Game_in_C\bin\Debug\net7.0\Game_in_C#.pdb
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.dll
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\refint\Game_in_C#.dll
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.pdb
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\Game_in_C#.genruntimeconfig.cache
+C:\Users\audri\Desktop\Game_in_C\obj\Debug\net7.0\ref\Game_in_C#.dll
