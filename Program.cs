@@ -2,7 +2,7 @@
 
 namespace Game_in_C
 {
-    class Program : Personnage
+    pulic class Program : Personnage
     {
         public void Main(string[] args)
         {

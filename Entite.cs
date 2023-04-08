@@ -25,7 +25,7 @@ namespace Game_in_C
             Console.WriteLine(uneEntite.nom + " lost " + degats + "health points");
             Console.WriteLine(uneEntite.nom + " has " + uneEntite.pointsDeVie + "health points left");
 
-            if(uneEntite.estMort())
+            if(uneEntite.estMort)
             {
                 Console.WriteLine(uneEntite.nom + "is dead");
             }
@@ -40,7 +40,7 @@ namespace Game_in_C
             }
         }
 
-        public bool estMort()
+        public bool EstMort()
         {
             return this.estMort;
         }

@@ -9,7 +9,6 @@ namespace Game_in_C
 
         public Personnage(string nom) : base(nom)
         {
-            this.nom = nom;
             niveau = 1;
             experience = 0;
         }
