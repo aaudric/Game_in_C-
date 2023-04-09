@@ -1,4 +1,4 @@
-# Création d'un jeu de role en POO avec le langage Csharp.
+# Création d'un jeu de role avec le langage Csharp.
 
 Le jeu consiste à choisir un type de personnage et a se battre contre un monstre.
 
