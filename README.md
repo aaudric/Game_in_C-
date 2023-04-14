@@ -15,10 +15,7 @@ Il existe 3 types de personnages différents avec des points de vies, des défen
 - Archer : 90 points de vie, 12 attack, 4 defense
 
 Le monstre lui à les caractérisques suivantes : 60 points de vie, 10 attack, 8 defense
-<<<<<<< HEAD
 
 ---------------------------------------------------------------------------------------------------------------
 
 Ce script a été créé par moi même Girondin Audric dans le but d'approfondir certaines notions vues personnellement en C#. Car c'est un langage de progtammation que j'ai décidé d'étudier en autonomie car il ne figurait pas au programme de ma licence.
-=======
->>>>>>> c075119d8f0fa5eeb994075de77a4fbbd62330d3
