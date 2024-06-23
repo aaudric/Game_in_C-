@@ -18,4 +18,4 @@ Le monstre lui à les caractérisques suivantes : 60 points de vie, 10 attack, 8
 
 ---------------------------------------------------------------------------------------------------------------
 
-Ce script a été créé par moi même Girondin Audric dans le but d'approfondir certaines notions vues personnellement en C#. Car c'est un langage de progtammation que j'ai décidé d'étudier en autonomie car il ne figurait pas au programme de ma licence.
+Ce script a été créé par moi même Girondin Audric dans le but d'approfondir certaines notions vues personnellement en C#. Car c'est un langage de programmation que j'ai décidé d'étudier en autonomie car il ne figurait pas au programme de ma licence.
